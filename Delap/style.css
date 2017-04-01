@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.slideshow {
+    width: 100%;
+    background-image: url(img/slideshow/slideshow4.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.slideshow img {
+    max-width: 380px;
+    width: 80%;
+    margin-top: 50px
+}
+
+.nav_logo {
+    height: 50px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #222;
+    color: #EEE;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px solid white;
+    border-top: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #EEE;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+.lineup {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.lineup ul {
+    padding-bottom: 2em;
+}
+
+.lineup h1 {
+    padding: 1em;
+}
+
+.lineup li {
+    list-style-type: none;
+    margin: 0.5em 0.7em;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lineup aside {
+}
+
+.lineup_child {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lineup_child img {
+    width: 40%;
+    margin: 1em;
+}
+
+.lineup_child2 {
+    float: left;
+    width: 100%;
+    background-image: url(img/pass_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lineup_child2 img {
+    width: 40%;
+    margin: 1em;
+}
+
+.lineup_child2 h1 {
+    color: black;
+}
+
+
+
+
+
+.passes_container {
+    width: 100%;
+    background-color: #222;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.passes_container img {
+}
+
+.passes_child {
+    width: 50%;
+    background-color: #222;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+.passes {
+    padding: 1em;
+    background-image: url(img/Pass_bg_blur.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
+
+.passes h1 {
+    padding: 0.5em;
+    margin-top: 
+}
+
+.passes img {
+    max-width: 90%;
+}
+
+.passes_child {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.passes_child li{
+    list-style: none;
+}
+
+.passes_child img {
+    display: inline-block;
+}
+
+.travel {
+    background-image: url(img/Line_up_bg_blur.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.map_img {
+    max-width: 80%
+}
+
+.travel_child {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.travel_child h1 {
+    padding: 1em;
+}
+
+.travel_child p {
+    text-align: center;
+    font-size: 150%;
+    padding: 0.5em;
+}
+
+.travel_logo {
+    margin-right: 1em;
+}
+
+.travel_grandchild {
+    padding: 2em;
+}
+
+.travel_grandchild img {
+    margin: 0 auto;
+    display: block;
+}
+
+
+.pc {
+    display: none;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+}
+
+.footer_mobile_ul li{
+    list-style: square;
+    margin: 0.8em;
+    margin-left: 2em;
+    float: left;
+}
+
+
+footer img {
+    height: 30px;
+    margin: 10px;
+    width:30px;
+    display: block;
+}
+
+footer li {
+    width: 30px;
+}
+
+footer p {
+    padding: 1em;
+}
+
+
+
+@media (min-width:768px){
+    
+.mobile {
+    display: none;
+}
+    
+.pc {
+    display: inline;
+}
+    
+.travel_grandchild img {
+    margin: 0;
+    display: inline;
+}
+
+.lineup {
+    width: 100%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+.lineup ul {
+    margin: 3em;
+}
+
+.lineup h1 {
+    margin: 1.5em;
+}
+
+.lineup li {
+    float: left;
+    list-style-type: none;
+    margin: 0.5em 0.7em;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lineup aside {
+}
+
+.lineup_child {
+    float: left;
+    width: 50%;
+    background-image: url(img/Line_up_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 1em;
+}
+
+.lineup_child img {
+    width: 18%;
+    margin: 10px;
+}
+
+.lineup_child2 {
+    float: left;
+    width: 50%;
+    background-image: url(img/pass_bg_blur.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 1em;
+}
+
+.lineup_child2 img {
+    width: 18%;
+    margin: 10px;
+}
+
+.lineup_child2 h1 {
+    color: black;
+}
+
+.passes_child {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 33%;
+}
+    
+    
+footer {
+    height: 50px;
+    background-color: #111;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    margin-left: 30%;
+}
+
+footer img {
+    height: 30px;
+    float: right;
+    margin: 10px;
+}
+
+footer li {
+    float:left;
+    list-style: none;
+}
+
+footer ul {
+    float: right;
+    margin-right: 50px;
+}
+    
+    .mobile {
+    display: none;
+}
+    
+.pc {
+    display: inline;
+}
+    
+}

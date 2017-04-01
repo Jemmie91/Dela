@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>De La Pau 2017</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slideshow.js"></script>
+    <meta name="viewport" content="initial-scale=1">
+</head>
+<body>
+    <div class="container">
+       
+        <header>
+            <div class="slideshow">
+                <div class="slideshow_content">
+                    <h1><img src="img/Logo/Logo_White.png" alt="De La Pau"></h1>
+                    <h3>MARCH 9-10 2017 Barcelona</h3>
+                    <script src="../p5.min.js"></script>
+                    <script src="sketch.js" ></script> <!-- countdown timer -->
+                </div>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+            <button class="toggle-menu">
+                <span></span> <!-- span by default is inline, div is block. -->
+                <span></span> <!-- these spans are used to display the hamburger -->
+                <span></span>
+            </button>
+              <li class="dropdown">
+                <a href="#lineup" class="dropbtn">LINE UP</a>
+                <div class="dropdown-content">
+                  <a href="#lineup">MARCH 9</a>
+                  <a href="#lineup">MARCH 10</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#passes" class="dropbtn">PASSES</a>
+                <div class="dropdown-content">
+                  <a href="#passes">G.A.</a>
+                  <a href="#passes">V.I.P.</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#travel" class="dropbtn">TRAVEL</a>
+                <div class="dropdown-content">
+                  <a href="#travel">GETTING HERE</a>
+                  <a href="#travel">WHERE TO STAY</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">MORE</a>
+                <div class="dropdown-content">
+                  <a href="#">NEWS</a>
+                  <a href="#">MARCH</a>
+                </div>
+              </li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <div class="lineup">
+                <div class="lineup_child" id="lineup" >
+                    <h1>MARCH 9 - THURSDAY</h1>
+                    <img src="img/artist_photo/6lack.jpg" alt="artist_photo_1" class="pc">
+                    <img src="img/artist_photo/Abi-ocia.jpg" alt="artist_photo_2" class="pc">
+                    <img src="img/artist_photo/Avelino2.jpg" alt="artist_photo_3" class="pc">
+                    <aside class="other_artists" class="pc">
+                        <ul class="pc">
+                            <li>FRANK OCEAN</li>
+                            <li>SADE</li>
+                            <li>VINCE STAPLES</li>
+                            <li>SPOON</li>
+                            <li>TYLER THE CREATER</li>
+                            <li>SNAKEHIPS</li>
+                            <li>CASYMERE CAT</li>
+                            <li>RUN THE JEWELS</li>
+                            <li>RADIOHEAD</li>
+                            <li>TRAVIS SCOTT</li>
+                            <li>KENDRICK LAMAR</li>
+                            <li>XXYYXX</li>
+                            <li>SCHOOLBOY Q</li>
+                            <li>TOVE LO</li>
+                            <li>LORDE</li>
+                        </ul>
+                    </aside>
+                    
+                    
+                    <img src="img/artist_photo/lineup9.jpg" alt="lineup_photo" class="mobile">
+                    <ul class="mobile">
+                        <li>FRANK OCEAN</li>
+                        <li>SADE</li>
+                        <li>VINCE STAPLES</li>
+                        <li>SPOON</li>
+                        <li>TYLER THE CREATER</li>
+                        <li>SNAKEHIPS</li>
+                        <li>CASYMERE CAT</li>
+                        <li>RUN THE JEWELS</li>
+                    </ul>
+                    
+                </div>
+                <div class="lineup_child2">
+                    <h1>MARCH 10 - WEDNESDAY</h1>
+                    <img src="img/artist_photo/Banks2.jpg" alt="artist_photo_4" class="pc">
+                    <img src="img/artist_photo/Justice.jpg" alt="artist_photo_5" class="pc">
+                    <img src="img/artist_photo/Lancey-foux.jpg" alt="artist_photo_6" class="pc">
+                    <aside class="other_artists" class="pc">
+                        <ul class="pc">
+                            <li>BLINK 182</li>
+                            <li>STORMZY</li>
+                            <li>CHILDISH GAMBINO</li>
+                            <li>ASAP FERG</li>
+                            <li>BANKS</li>
+                            <li>TOOL</li>
+                            <li>LOGIC</li>
+                            <li>THE ORWELLS</li>
+                            <li>LOCAL NATIVES</li>
+                            <li>CAR SEAT HEADREST</li>
+                            <li>THE INTERNET</li>
+                            <li>FLUME BEACH HOUSE 28</li>
+                            <li>NO CEILING</li>
+                            <li>ABI OCIA</li>
+                            <li>DMV</li>
+                        </ul>
+                    </aside>
+                    
+                    <img src="img/artist_photo/lineup9.jpg" alt="lineup_photo" class="mobile">
+                    <ul class="mobile">
+                        <li>BLINK 182</li>
+                        <li>STORMZY</li>
+                        <li>CHILDISH GAMBINO</li>
+                        <li>ASAP FERG</li>
+                        <li>BANKS</li>
+                        <li>TOOL</li>
+                        <li>LOGIC</li>
+                        <li>THE ORWELLS</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="passes_container" id="passes">
+                <div class="passes">
+                    <h1>PASSES</h1>
+                    <div class="passes_child">
+                        <h2>GENERAL ADMISSION</h2>
+                        <img src="img/pass_1day.png" alt="1 day GE pass">
+                        <ul>
+                            <li>Almost full access</li>
+                            <li>nothing special</li>
+                            <li>something</li>
+                        </ul>
+                        <span></span> <!-- horizonal line -->
+                        <img src="img/pass_2day.png" alt="2 day GE pass">
+                        <ul>
+                            <li>Almost full access</li>
+                            <li>nothing special</li>
+                            <li>something</li>
+                        </ul>
+                    </div>
+                    <div class="passes_child">
+                        <h2>GENERAL ADMISSION</h2>
+                        <img src="img/pass_1day.png" alt="1 day VIP pass">
+                        <ul>
+                            <li>Full access</li>
+                            <li>Free parking</li>
+                            <li>something</li>
+                        </ul>
+                        <span></span> <!-- horizonal line -->
+                        <img src="img/pass_2day.png" alt="2 day VIP pass">
+                        <ul>
+                            <li>Full access</li>
+                            <li>Free parking</li>
+                            <li>something</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="travel" id="travel">
+                <div class="travel_child">
+                    <h1>TRAVEL</h1>
+                    <img src="img/Map.png" alt="map" class="map_img">
+                    <div class="travel_grandchild">
+                        <p>
+                            <img src="img/airplain_logo.png" alt="map" height="50px" class="travel_logo">
+                            30 minute on train from International Barcelona Airport
+                        </p>
+                        <p>
+                            <img src="img/car_logo.png" alt="map" height="50px" class="travel_logo">
+                            20 minute drive from Barcelona city center
+                        </p>
+                        <p>
+                            <img src="img/walking_logo.png" alt="map" height="50px" class="travel_logo">
+                            15 minute walk from Sant Andria de Besos station
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <P >CONTACT | POLICY | SPONSORS | ADVERTISING | CAREERS</P>
+            <ul>
+                <li><a href="#"><img src="img/twitter_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/facebook_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/instagram_icon.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/youtube_icon.png" alt="twitter"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
